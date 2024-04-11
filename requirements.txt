@@ -1,4 +1,4 @@
-playsound
 sounddevice
+soundfile
 numpy
 pynput
