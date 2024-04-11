@@ -14,7 +14,6 @@ def onPress(key):
 
 
 def main():
-    print(sd.query_devices())
     listener = Listener(on_press=onPress)
     listener.start()
     listener.join()
