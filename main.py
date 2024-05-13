@@ -17,7 +17,6 @@ for filename in filenames:
 speaker_device_id = find_speaker_device()
 
 def onPress(key):
-    print(key)
     # bruh sound effect
     if isinstance(key, Key) and (key == Key.cmd_r or key == Key.alt_gr):
         bruh_data = sound_data[bruh_filename]['data']
